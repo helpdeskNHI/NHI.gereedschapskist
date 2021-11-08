@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: Welkom in de NHI-gereedschapskist
 description: Deze pagina bevat een overzicht van alle pre- en postprocessing tools die gebruikt kunnen worden. 
 baseurl: /NHI.gereedschapskist
-Format: ![NHI-logo](https://github.com/helpdeskNHI/NHI.gereedschapskist/blob/gh-pages/NHI-logo.png)
+Format: ![NHI-logo](/blob/gh-pages/NHI-logo.png)
