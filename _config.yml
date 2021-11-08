@@ -3,3 +3,6 @@ title: Welkom in de NHI-gereedschapskist
 description: Deze pagina bevat een overzicht van alle pre- en postprocessing tools die gebruikt kunnen worden. 
 baseurl: /NHI.gereedschapskist/blob/gh-pages
 Format: ![](/blob/gh-pages/NHI-logo.png)
+.page-header {
+  color: $header-heading-color;
+}
