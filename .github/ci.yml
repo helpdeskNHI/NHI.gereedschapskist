@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+# Circumvent this problem: https://github.com/actions/checkout/issues/165
+      - name: Checkout code with LFS cache
+        uses: nschloe/action-checkout-with-lfs-cache@v1
+
+      - name: Build HTML with tox
+        run: |
+          pip install tox
+          tox -e build
+
+      - name: Deploy HTML to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .tox/docs_out
