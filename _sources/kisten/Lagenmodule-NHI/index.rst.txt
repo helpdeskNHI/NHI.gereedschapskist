@@ -1,0 +1,21 @@
+
+Lagenmodule-NHI
+###############
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+   extra-batch-functies
+
+Beschrijving
+============
+Doel van de lagenmodeltool is om vanuit een geologische basisdataset (zoals REGIS) een lagenmodel ten behoeve van een numerieke grondwatermodel op te kunnen zetten, waarbij ook verbeteringen aan het geologische basismodel doorgevoerd kunnen worden. http://nhi.nu/nl/index.php/uitvoering/gerealiseerd/lagenmodel/ 
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

@@ -1,0 +1,33 @@
+
+iMOD5-tools
+###########
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+   iMOD5
+   IPFanalysis
+   DINOboringExtractor
+   IDFexp
+   IDFvoxel
+   IFFselect
+   Diverse_Plugins
+   IMFcheck
+   IPFsplit
+   ResidualAnalysis
+   iMODValidator-UI
+   IDFPY
+   Profile2IPF
+
+Beschrijving
+============
+Geen beschrijving beschikbaar
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

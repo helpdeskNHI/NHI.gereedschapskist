@@ -1,0 +1,20 @@
+
+Pastas
+######
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+
+Beschrijving
+============
+maken, simuleren en visualiseren van tijdserie modellen
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

@@ -1,0 +1,15 @@
+
+IPFsplit
+########
+
+
+Beschrijving
+============
+een tool voor splitsen van IPF-files
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: IPFsplit.csv
+   :stub-columns: 1

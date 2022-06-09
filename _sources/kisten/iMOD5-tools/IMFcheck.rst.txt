@@ -1,0 +1,15 @@
+
+IMFcheck
+########
+
+
+Beschrijving
+============
+een tool voor controle van missende entries in IMF-files
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: IMFcheck.csv
+   :stub-columns: 1

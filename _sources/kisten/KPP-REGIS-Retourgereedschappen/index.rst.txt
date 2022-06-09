@@ -1,0 +1,20 @@
+
+KPP-REGIS-Retourgereedschappen
+##############################
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+
+Beschrijving
+============
+Deze tool helpt om inzicht te krijgen in informatie over de ondergrond en de wijze waarop deze informatie zich verhoudt tot REGIS. http://nhi.nu/nl/files/2116/2996/2950/11203678-000-BGS-0001_v4.0-KPP_retourstroom_REGIS.pdf 
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

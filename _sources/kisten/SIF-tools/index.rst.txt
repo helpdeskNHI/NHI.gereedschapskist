@@ -1,0 +1,23 @@
+
+SIF-tools
+#########
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+   ResiduAnalysis
+   SIF-basis
+   WorkflowViz
+
+Beschrijving
+============
+Gereedschappenset ontwikkeld voor iMOD 5  om het omzetten van data naar modelinvoer en foutafhandeling eenvoudiger te maken.
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

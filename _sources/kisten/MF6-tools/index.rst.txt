@@ -1,0 +1,20 @@
+
+MF6-tools
+#########
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+
+Beschrijving
+============
+voor- en nabewerkingstools rond MODFLOW 6
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

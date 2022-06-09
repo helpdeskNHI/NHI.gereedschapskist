@@ -1,0 +1,15 @@
+
+imod-fews-adapter
+#################
+
+
+Beschrijving
+============
+Voor aansturing Modflow-Metaswap modellen vanuit FEWS
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: imod-fews-adapter.csv
+   :stub-columns: 1

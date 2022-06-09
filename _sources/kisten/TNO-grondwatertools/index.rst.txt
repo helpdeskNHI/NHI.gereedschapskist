@@ -1,0 +1,20 @@
+
+TNO-grondwatertools
+###################
+
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+
+Beschrijving
+============
+tools voor analyse van grondwaterstandsdata
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: index.csv
+   :stub-columns: 1

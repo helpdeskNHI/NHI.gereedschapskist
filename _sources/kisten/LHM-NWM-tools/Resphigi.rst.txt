@@ -1,0 +1,15 @@
+
+Resphigi
+########
+
+
+Beschrijving
+============
+Voor het neerschalen van de LHM uitvoerdata naar hogere resoluties
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file: Resphigi.csv
+   :stub-columns: 1
