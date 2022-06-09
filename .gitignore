@@ -1,4 +1,7 @@
+.tox/*
 .vscode/*
 docs/_build/*
 docs/kisten/*
 docs/*.rst
+42
+*.egg-info/*
