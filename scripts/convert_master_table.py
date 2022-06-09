@@ -46,7 +46,9 @@ TOCTEMPLATE = jinja2.Template(
 )
 
 # %% Read
-df = pd.read_csv("NHI-gereedschapskist_inventarisatie.csv")
+script_dir = Path(__file__).parent
+
+df = pd.read_csv(script_dir / "NHI-gereedschapskist_inventarisatie.csv")
 
 # %% Fill nans
 # Ffill group name to convert hierarchy into long table format.
@@ -66,13 +68,13 @@ col_select = [colname for colname in df.columns if colname not in exclude_in_csv
 toolboxes = [f"./kisten/{kist}/index" for kist in kisten]
 index_text = INDEX_CONTENT.render() + TOCTEMPLATE.render(tools = toolboxes)
 
-index_file = Path(".." ) / "docs" / "index.rst"
+index_file = script_dir / ".." / "docs" / "index.rst"
 
 with open(index_file, mode="w") as f:
     f.write(index_text)
 
 # %% Write other rst files
-folder = Path("..") / "docs" / "kisten"
+folder = script_dir / ".." / "docs" / "kisten"
 
 for kist in kisten:
     kist_folder = folder / kist
