@@ -12,7 +12,7 @@ INDEX_CONTENT = jinja2.Template(
     "\n"
     ".. image:: _static/NHI-logo.svg\n"
     "\n"
-    
+
 )
 
 TEMPLATE_CONTENT = jinja2.Template(
@@ -87,7 +87,7 @@ for kist in kisten:
         # Drop indexes and transpose
         df_csv = df_csv.reset_index(drop=True).T[0]
         # Set name, will be header in table
-        df_csv.rename("Specificatie")
+        df_csv = df_csv.rename("Specificatie")
 
         # Prepare filenames
         file_stem = kist_folder / tool
