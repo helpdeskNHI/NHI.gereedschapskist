@@ -1,0 +1,11 @@
+name: nhi_docs
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - sphinx-material
+  - sphinx
+  - jinja2
+  - pandas
