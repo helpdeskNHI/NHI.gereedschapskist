@@ -28,4 +28,3 @@ binnen de NHI gereedschapskist.
    ./kisten/SOBEK-Wflow-tools/index
    ./kisten/iGROW/index
    ./kisten/validatiescripts-LHM/index
-   ./kisten/USGS-tools/index

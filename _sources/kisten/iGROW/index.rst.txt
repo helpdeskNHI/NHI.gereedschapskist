@@ -13,11 +13,3 @@ Specificaties
    :file: index.csv
    :stub-columns: 1
 
-Gereedschappen
-==============
-
-
-.. toctree:: 
-   :numbered:
-   :maxdepth: 1
-

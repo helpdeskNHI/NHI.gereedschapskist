@@ -26,5 +26,5 @@ Gereedschappen
    make-HWS-peilen
    DMSaltHIS
    AGRICOM-FEWS-adapter
-   Resphigi
+   Respighi
    imod-fews-adapter
