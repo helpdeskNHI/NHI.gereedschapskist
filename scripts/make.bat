@@ -8,6 +8,6 @@ call python %~dp0/convert_master_table.py
 
 :: Build .rst files to a html pages
 cd ..
-call sphinx-build -d "docs/_build/docs_doctree" docs "docs/_build/docs_out" --color -bhtml
+call sphinx-build -a -d "docs/_build/docs_doctree" docs "docs/_build/docs_out" --color -bhtml
 
 pause
