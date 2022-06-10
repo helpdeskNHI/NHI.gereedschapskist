@@ -2,16 +2,6 @@
 D-HyDAMO_D-Hydro
 ################
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-   HyDAMO-py
-   Delft3D-Flexible-Mesh-Python
-   HyDAMO-toolbox
-   D-Hydro
-
 Beschrijving
 ============
 een modelgenerator waarmee volledig geautomatiseerd een 1D2D-RR D-HYDRO model kan worden gegenereerd op basis van oppervlaktewaterdata in HyDAMO en andere bronnen
@@ -22,3 +12,16 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   HyDAMO-py
+   Delft3D-Flexible-Mesh-Python
+   HyDAMO-toolbox
+   D-Hydro

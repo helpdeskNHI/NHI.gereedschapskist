@@ -2,15 +2,6 @@
 iMOD Suite
 ##########
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-   iMOD-Python
-   iMOD-QGIS
-   iMOD-3D-Viewer
-
 Beschrijving
 ============
 Software suite om reproduceerbaar te modelleren
@@ -21,3 +12,15 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   iMOD-Python
+   iMOD-QGIS
+   iMOD-3D-Viewer

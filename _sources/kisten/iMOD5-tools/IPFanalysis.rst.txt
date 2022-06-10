@@ -2,7 +2,6 @@
 IPFanalysis
 ###########
 
-
 Beschrijving
 ============
 Vergelijking van sets IPF-files met tijdstijghoogtereeksen. Resultaat is een Excelsheet, IPF-files en PNG-files met overeenkomsten en verschillen, zowel in metadata als tijdsafhankelijke data, Bepaling GxG o.b.v. gekozen instellingen, Zoeken naar potentiaalverschillen in IPF-set
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: IPFanalysis.csv
    :stub-columns: 1
+

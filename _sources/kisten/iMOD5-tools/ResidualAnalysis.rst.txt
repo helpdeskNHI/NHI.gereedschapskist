@@ -2,7 +2,6 @@
 ResidualAnalysis
 ################
 
-
 Beschrijving
 ============
 een tool voor het maken van een Excelsheet met residustatistiek en vergelijking van de residuen van verschillende modelruns
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: ResidualAnalysis.csv
    :stub-columns: 1
+

@@ -2,7 +2,6 @@
 DINOboringExtractor
 ###################
 
-
 Beschrijving
 ============
 Selectie van (geaggregeerde) laaggegevens uit DINOloket boring XML-bestanden
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: DINOboringExtractor.csv
    :stub-columns: 1
+

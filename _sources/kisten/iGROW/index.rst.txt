@@ -2,12 +2,6 @@
 iGROW
 #####
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-
 Beschrijving
 ============
 inzichtelijk maken van het effect van verschillende hydrologische benaderingen voor het topsysteem / ontwateringssysteem
@@ -18,3 +12,12 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+

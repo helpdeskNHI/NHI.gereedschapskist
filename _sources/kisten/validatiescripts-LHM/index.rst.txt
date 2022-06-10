@@ -2,12 +2,6 @@
 validatiescripts-LHM
 ####################
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-
 Beschrijving
 ============
 tools en metingen gebruikt in validatie LHM
@@ -18,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+

@@ -2,19 +2,6 @@
 LHM-NWM-tools
 #############
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-   Topsysteem-script-NHI
-   GoNHI
-   make-HWS-peilen
-   DMSaltHIS
-   AGRICOM-FEWS-adapter
-   Resphigi
-   imod-fews-adapter
-
 Beschrijving
 ============
 Geen beschrijving beschikbaar
@@ -25,3 +12,19 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   Topsysteem-script-NHI
+   GoNHI
+   make-HWS-peilen
+   DMSaltHIS
+   AGRICOM-FEWS-adapter
+   Resphigi
+   imod-fews-adapter

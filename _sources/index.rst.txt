@@ -8,6 +8,7 @@ binnen de NHI gereedschapskist.
 
 
 .. toctree:: 
+   :hidden:
    :maxdepth: 1
 
    ./kisten/SIF-tools/index

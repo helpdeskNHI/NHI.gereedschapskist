@@ -2,7 +2,6 @@
 IDFvoxel
 ########
 
-
 Beschrijving
 ============
 voxel analyses, zoals bepalen laagniveaus met top-downvolgorde uit voxeldata
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: IDFvoxel.csv
    :stub-columns: 1
+

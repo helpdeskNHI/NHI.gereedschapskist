@@ -2,7 +2,6 @@
 Profile2IPF
 ###########
 
-
 Beschrijving
 ============
 Voor het omwerken van getekende geologische profielen naar een laag schematisering
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: Profile2IPF.csv
    :stub-columns: 1
+

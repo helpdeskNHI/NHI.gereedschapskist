@@ -2,7 +2,6 @@
 extra-batch-functies
 ####################
 
-
 Beschrijving
 ============
 toepassing MIPWA
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: extra-batch-functies.csv
    :stub-columns: 1
+

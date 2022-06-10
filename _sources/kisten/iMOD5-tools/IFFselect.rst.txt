@@ -2,7 +2,6 @@
 IFFselect
 #########
 
-
 Beschrijving
 ============
 vele tools voor analyse, bewerking en selectie van de verschillende iMOD-bestandsformaten, zoals bijv. IFFselect
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: IFFselect.csv
    :stub-columns: 1
+

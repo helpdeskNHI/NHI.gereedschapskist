@@ -2,12 +2,6 @@
 ISG-tool
 ########
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-
 Beschrijving
 ============
 Deze tool wordt gebruikt om de invoer voor de oppervlaktewaterpeilen (voornamelijk grote rivieren) aan te maken
@@ -18,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+

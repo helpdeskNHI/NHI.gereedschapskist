@@ -2,13 +2,6 @@
 USGS-tools
 ##########
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-   Flopy
-
 Beschrijving
 ============
 Geen beschrijving beschikbaar
@@ -19,3 +12,13 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   Flopy

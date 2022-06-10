@@ -2,7 +2,6 @@
 ResiduAnalysis
 ##############
 
-
 Beschrijving
 ============
 Weergave in Exceltabel en vergelijking van residuen van een of meerdere modellen en ruimtelijke weergave residuverschillen
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: ResiduAnalysis.csv
    :stub-columns: 1
+

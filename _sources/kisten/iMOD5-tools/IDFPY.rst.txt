@@ -2,7 +2,6 @@
 IDFPY
 #####
 
-
 Beschrijving
 ============
 Tool voor het lezen en schrijven van idf-bestanden
@@ -13,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: IDFPY.csv
    :stub-columns: 1
+

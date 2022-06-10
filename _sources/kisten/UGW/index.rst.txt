@@ -2,12 +2,6 @@
 UGW
 ###
 
-
-
-.. toctree:: 
-   :maxdepth: 1
-
-
 Beschrijving
 ============
 HDSR - Utrechts grondwatermodel en scripts voor oppervlaktewater-component Utrechts GrondWater model (UGW)
@@ -18,3 +12,4 @@ Specificaties
 .. csv-table:: 
    :file: index.csv
    :stub-columns: 1
+
