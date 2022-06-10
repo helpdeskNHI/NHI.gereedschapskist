@@ -21,8 +21,6 @@ TEMPLATE_CONTENT = jinja2.Template(
     "{% set underline = '#' * gereedschap|length %}"
     "{{underline}}\n"
     "\n"
-    "{{toctree}}"
-    "\n"
     "Beschrijving\n"
     "============"
     "\n"
@@ -34,11 +32,23 @@ TEMPLATE_CONTENT = jinja2.Template(
     ".. csv-table:: \n"
     "   :file: {{csv_file}}\n"
     "   :stub-columns: 1\n"
+    "\n"
+    "{% if toctree is not none %}"
+    "Gereedschappen\n"
+    "==============\n"
+    "{{toctree}}"
+    "{% endif %}"
 )
 
 TOCTEMPLATE = jinja2.Template(
     "\n\n"
     ".. toctree:: \n"
+    "{% if hidden is true %}"
+    "   :hidden:\n"
+    "{% endif %}"
+    "{% if numbered is true %}"
+    "   :numbered:\n"
+    "{% endif %}"
     "   :maxdepth: 1\n\n"
     "{% for tool in tools %}"
     "   {{tool}}\n"
@@ -66,7 +76,7 @@ col_select = [colname for colname in df.columns if colname not in exclude_in_csv
 
 # %% Write index file
 toolboxes = [f"./kisten/{kist}/index" for kist in kisten]
-index_text = INDEX_CONTENT.render() + TOCTEMPLATE.render(tools = toolboxes)
+index_text = INDEX_CONTENT.render() + TOCTEMPLATE.render(tools = toolboxes, numbered=False, hidden=True)
 
 index_file = script_dir / ".." / "docs" / "index.rst"
 
@@ -81,11 +91,12 @@ for kist in kisten:
     kist_folder.mkdir(exist_ok=True, parents=True)
 
     df_kist = df.loc[df["Gereedschapskist"] == kist]
+    tools = df_kist["Gereedschap"]
     for tool in df_kist["Gereedschap"]:
-        beschrijving = df_kist.loc[df_kist["Gereedschap"] == tool, "Beschrijving"].values[0]
+        beschrijving = df_kist.loc[tools == tool, "Beschrijving"].values[0]
         
         # Prepare dataframe for csv
-        df_csv = df_kist.loc[df_kist["Gereedschap"] == tool, col_select]
+        df_csv = df_kist.loc[tools == tool, col_select]
         # Drop indexes and transpose
         df_csv = df_csv.reset_index(drop=True).T[0]
         # Set name, will be header in table
@@ -102,14 +113,14 @@ for kist in kisten:
         else:
             toolname = tool
         
-        if tool == "index":
-            toctools = [i for i in df_kist["Gereedschap"].values if i != "index"]
-            toctree = TOCTEMPLATE.render(tools=toctools)
+        if (tool == "index") & (tools.size > 1):
+            toctools = [i for i in tools.values if i != "index"]
+            toctree = TOCTEMPLATE.render(tools=toctools, hidden=False, numbered=True)
         else:
-            toctree = ""
+            toctree = None
 
         rst_text = TEMPLATE_CONTENT.render(
-            beschrijving=beschrijving, toctree=toctree, csv_file=csv_file.name, gereedschap=toolname
+            beschrijving=beschrijving, toctree=toctree, csv_file=csv_file.name, gereedschap=toolname,
             )
 
         # Write

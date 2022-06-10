@@ -89,7 +89,8 @@ html_theme_options = {
     'logo_icon': '&#xe869',
     'css_minify': True,
     'nav_title': 'NHI Gereedschapskist',
-    'globaltoc_depth': 2,
+    'globaltoc_depth': 3,
+    'globaltoc_includehidden': True,
     'color_primary' : 'blue',
     'color_accent' : 'lime',
 }
