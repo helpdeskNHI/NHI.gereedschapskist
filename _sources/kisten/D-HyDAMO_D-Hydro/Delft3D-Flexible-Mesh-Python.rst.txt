@@ -4,7 +4,7 @@ Delft3D-Flexible-Mesh-Python
 
 Beschrijving
 ============
-Python tooling om HyDAMO GML's om te zetten naar invoer voor 1D/2D Hydro.
+Python tooling om D-HYDRO 1D2D modellen te genereren, met name via de D-HyDAMO tool. Wordt momenteel gemigreerd naar HYDROLIB.
 
 Specificaties
 =============

@@ -22,5 +22,4 @@ Gereedschappen
    :maxdepth: 1
 
    hydrobase
-   validatietoolbox
    overige-Sobek-tools

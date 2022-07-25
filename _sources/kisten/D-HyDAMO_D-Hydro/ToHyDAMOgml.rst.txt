@@ -1,6 +1,6 @@
 
-HyDAMO-py
-#########
+ToHyDAMOgml
+###########
 
 Beschrijving
 ============
@@ -10,6 +10,6 @@ Specificaties
 =============
 
 .. csv-table:: 
-   :file: HyDAMO-py.csv
+   :file: ToHyDAMOgml.csv
    :stub-columns: 1
 

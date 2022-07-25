@@ -1,6 +1,6 @@
 
-validatietoolbox
-################
+validatietoolbox-frontend
+#########################
 
 Beschrijving
 ============
@@ -10,6 +10,6 @@ Specificaties
 =============
 
 .. csv-table:: 
-   :file: validatietoolbox.csv
+   :file: validatietoolbox-frontend.csv
    :stub-columns: 1
 

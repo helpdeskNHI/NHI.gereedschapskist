@@ -21,7 +21,9 @@ Gereedschappen
    :numbered:
    :maxdepth: 1
 
-   HyDAMO-py
+   validatietoolbox-backend
+   validatietoolbox-frontend
+   ToHyDAMOgml
    Delft3D-Flexible-Mesh-Python
    HyDAMO-toolbox
-   D-Hydro
+   D-Hydro Suite 1D2D
