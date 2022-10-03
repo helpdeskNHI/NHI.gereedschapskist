@@ -4,7 +4,7 @@ validatiescripts-LHM
 
 Beschrijving
 ============
-tools en metingen gebruikt in validatie LHM
+Tools en metingen gebruikt in validatie LHM
 
 Specificaties
 =============

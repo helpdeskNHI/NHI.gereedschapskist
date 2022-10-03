@@ -4,7 +4,7 @@ iGROW
 
 Beschrijving
 ============
-inzichtelijk maken van het effect van verschillende hydrologische benaderingen voor het topsysteem / ontwateringssysteem
+Inzichtelijk maken van het effect van verschillende hydrologische benaderingen voor het topsysteem / ontwateringssysteem
 
 Specificaties
 =============

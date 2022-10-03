@@ -4,7 +4,7 @@ iMOD5-tools
 
 Beschrijving
 ============
-Geen beschrijving beschikbaar
+Verschillende tools om de input en output van iMOD 5 modellen te bewerken om zo makkelijker tot een grondwatermodel te komen en de resultaten uit te lezen.
 
 Specificaties
 =============
@@ -22,15 +22,6 @@ Gereedschappen
    :maxdepth: 1
 
    iMOD5
-   IPFanalysis
-   DINOboringExtractor
-   IDFexp
-   IDFvoxel
-   IFFselect
-   Diverse_Plugins
-   IMFcheck
-   IPFsplit
-   ResidualAnalysis
-   iMODValidator-UI
+   SIF-tooling
    IDFPY
    Profile2IPF

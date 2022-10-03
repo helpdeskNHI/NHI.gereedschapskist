@@ -11,15 +11,15 @@ binnen de NHI gereedschapskist.
    :hidden:
    :maxdepth: 1
 
-   ./kisten/SIF-tools/index
+   ./kisten/SIF/index
    ./kisten/LHM-NWM-tools/index
    ./kisten/iMOD Suite/index
-   ./kisten/D-HyDAMO_D-Hydro/index
+   ./kisten/HyDAMO en D-Hydro Tooling/index
    ./kisten/ISG-tool/index
    ./kisten/WFS2ISG.py/index
    ./kisten/Lagenmodule-NHI/index
    ./kisten/KPP-REGIS-Retourgereedschappen/index
-   ./kisten/UGW/index
+   ./kisten/UGW - Bouwsteen Oppervlaktewater/index
    ./kisten/TimML/index
    ./kisten/Pastas/index
    ./kisten/MF6-tools/index

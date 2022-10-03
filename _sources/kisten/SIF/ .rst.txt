@@ -1,0 +1,15 @@
+
+ 
+#
+
+Beschrijving
+============
+Gereedschappenset ontwikkeld voor iMOD 5  om het omzetten van data naar modelinvoer en foutafhandeling eenvoudiger te maken. Het zijn allemaal tools die flexibel zijn en daarmee voor verschillende doelen in te zetten. Je kan het zien als bouwstenen waarmee je door slim combineren een complexe workflow kan maken. Je kunt zelfs een samengestelde workflow met subworkflows maken die je via Runscripts.bat in zijn geheel kan uitvoeren en die je eventueel via WorkflowViz kan visualiseren
+
+Specificaties
+=============
+
+.. csv-table:: 
+   :file:  .csv
+   :stub-columns: 1
+

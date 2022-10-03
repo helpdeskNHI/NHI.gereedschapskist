@@ -4,7 +4,7 @@ SOBEK-Wflow-tools
 
 Beschrijving
 ============
-tools van Hydroconsult om Sobek en Wflow om model invoer aan te maken
+Tools van Hydroconsult om Sobek en Wflow om model invoer aan te maken
 
 Specificaties
 =============
@@ -21,5 +21,5 @@ Gereedschappen
    :numbered:
    :maxdepth: 1
 
-   hydrobase
-   overige-Sobek-tools
+   Hydrobase
+   Overige-Sobek-tools

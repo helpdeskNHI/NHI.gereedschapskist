@@ -4,7 +4,7 @@ TNO-grondwatertools
 
 Beschrijving
 ============
-tools voor analyse van grondwaterstandsdata
+De grondwatertools van TNO bevatten verschillende viewers voor analyse van grondwaterstandsdata. Deze zijn vrij bruikbaar.
 
 Specificaties
 =============
@@ -13,3 +13,13 @@ Specificaties
    :file: index.csv
    :stub-columns: 1
 
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   Grondwaterkwaliteit-in-beeld 
+   Grondwaterstanden-in-beeld 
