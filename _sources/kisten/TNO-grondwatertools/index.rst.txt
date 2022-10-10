@@ -21,5 +21,5 @@ Gereedschappen
    :numbered:
    :maxdepth: 1
 
-   Grondwaterkwaliteit-in-beeld 
-   Grondwaterstanden-in-beeld 
+   Grondwaterkwaliteit-in-beeld
+   Grondwaterstanden-in-beeld

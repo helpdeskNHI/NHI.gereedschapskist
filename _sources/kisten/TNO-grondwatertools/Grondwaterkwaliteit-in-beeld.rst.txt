@@ -1,6 +1,6 @@
 
-Grondwaterkwaliteit-in-beeld 
-#############################
+Grondwaterkwaliteit-in-beeld
+############################
 
 Beschrijving
 ============
@@ -10,6 +10,6 @@ Specificaties
 =============
 
 .. csv-table:: 
-   :file: Grondwaterkwaliteit-in-beeld .csv
+   :file: Grondwaterkwaliteit-in-beeld.csv
    :stub-columns: 1
 

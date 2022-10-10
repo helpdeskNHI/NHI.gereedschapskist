@@ -1,6 +1,6 @@
 
-Grondwaterstanden-in-beeld 
-###########################
+Grondwaterstanden-in-beeld
+##########################
 
 Beschrijving
 ============
@@ -14,6 +14,6 @@ Specificaties
 =============
 
 .. csv-table:: 
-   :file: Grondwaterstanden-in-beeld .csv
+   :file: Grondwaterstanden-in-beeld.csv
    :stub-columns: 1
 

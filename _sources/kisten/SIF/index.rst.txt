@@ -1,6 +1,6 @@
 
- 
-#
+SIF
+###
 
 Beschrijving
 ============
@@ -10,6 +10,20 @@ Specificaties
 =============
 
 .. csv-table:: 
-   :file:  .csv
+   :file: index.csv
    :stub-columns: 1
 
+Gereedschappen
+==============
+
+
+.. toctree:: 
+   :numbered:
+   :maxdepth: 1
+
+   SIF-Basis
+   SIF-plus
+   SIF-batch
+   SIF-tools (open-source)
+   SIF-tools (niet open-source)
+   WorkflowViz
